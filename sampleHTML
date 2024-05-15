@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision Form</title>
+    <style>
+
+        .question-box {
+            border: 1px solid #000;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: #fff;
+        }
+
+        body, h1, h2, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .decisions {
+
+            margin: 0 auto;
+
+        }
+
+        .row {
+            margin-bottom: 20px;
+        }
+        .bottom-right {
+            position: absolute;
+            bottom: -250px;
+            right: 0px;
+
+    </style>
+</head>
+
+<body>
+    <div class="decisions">
+        <div class="row">
+            <div class="col-sm-10 col-xs-12">
+                <h4 class="f-text-container">First Contact</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-xs-12">
+                <div class="f-text-container">
+                    <p>It is Monday morning; Phil receives notification from the largest customer that a developer deleted their data over the weekend. This could be unauthorized access to the client infrastructure, probably from a hacker.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-xs-12">
+                <div>
+                    <h5 class="f-text-container"></h5>
+                    <section class="short-inputs f-decision-container">
+                        <div class="question-box decision-container">
+                            <div class="form-group f-radio">
+                                <div class="label-container">
+                                    <label for=""><b>1. What do you do first?</b></label>
+                                    <i class="tooltip-toggle glyphicon glyphicon-info-sign" data-original-title="" title=""></i>
+                                </div>
+                                <div class="radio-group">
+                                    <div class="radio-item">
+                                        <input type="radio" name="Question1" id="radiodecn-57" data-f-bind="Question1" value="a">
+                                        <label for="radiodecn-57">Contact Information Technology and/or Engineering Teams</label>
+                                    </div>
+                                    <div class="radio-item">
+                                        <input type="radio" name="Question1" id="radiodecn-58" data-f-bind="Question1" value="b">
+                                        <label for="radiodecn-58">Contact the Legal Team</label>
+                                    </div>
+                                    <div class="radio-item">
+                                        <input type="radio" name="Question1" id="radiodecn-59" data-f-bind="Question1" value="c">
+                                        <label for="radiodecn-59">Contact the Customer Support Team</label>
+                                    </div>
+                                    <div class="radio-item">
+                                        <input type="radio" name="Question1" id="radiodecn-95" data-f-bind="Question1" value="d">
+                                        <label for="radiodecn-95">Contact Cyber Insurance Firm</label>
+                                    </div>
+                                    <div class="radio-item">
+                                        <input type="radio" name="Question1" id="radiodecn-97" data-f-bind="Question1" value="e">
+                                        <label for="radiodecn-97">Contact Law Enforcement</label>
+                                    </div>
+                                    <div class="radio-item">
+                                        <input type="radio" name="Question1" id="radiodecn-99" data-f-bind="Question1" value="f">
+                                        <label for="radiodecn-99">Contact the Customer Directly</label>
+                                    </div>
+                                    <div class="radio-item">
+                                        <input type="radio" name="Question1" id="radiodecn-99" data-f-bind="Question1" value="g">
+                                        <label for="radiodecn-99">Other, please explain:</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="decision-container">
+                        </div>
+                        <div class="decision-container">
+                        </div>
+                        <div class="decision-container"></div>
+                    </section>
+                    <h5 class="f-text-container"></h5>
+                    <section class="short-inputs f-decision-container">
+                        <div class="decision-container"></div>
+                        <div class="decision-container"></div>
+                        <div class="decision-container"></div>
+                    </section>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <div class="">
+                    <h5 class="f-text-container"></h5>
+                    <section class="long-inputs f-decision-container">
+                        <div class="decision-container">
+                        </div>
+
+                        <div class="decision-container">
+                        </div>
+                        <div class="decision-container">
+                            <div class="form-group f-text">
+                                <div class="label-container">
+                                    <label for=""><b>Additional Comments</b></label>
+                                    <i class="tooltip-toggle glyphicon glyphicon-info-sign" data-original-title="" title=""></i>
+                                </div>
+                                <textarea name="Comment19" data-f-bind="Comment1" rows="6" cols="60"></textarea>
+                            </div>
+                        </div>
+                        <div class="decision-container"></div>
+                        <div class="decision-container"></div>
+                        <div class="decision-container"></div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-right row -undeletable">
+            <div class="col-xs-12 action-bar -undeletable">
+                <div class="action">
+                    <button class="btn btn-link f-action-button" data-f-on-click="js:goto(#introduction.html)">Back</button>
+                </div>
+                <div class="action">
+                    <button class="btn btn-primary f-action-button" data-f-on-click="js:goto(#2firstcontact.html)&amp;&amp; js:goto(#dashboard.html)">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
